@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+dist/
+target/
+
+# Build artifacts
+*.whl
+*.tar.gz
+*.egg-info/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store

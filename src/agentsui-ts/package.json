@@ -1,0 +1,29 @@
+{
+    "name": "aiagentsui",
+    "version": "0.0.1",
+    "description": "AgentsUI - UI Components for AI Agents",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "prepublishOnly": "npm run build"
+    },
+    "keywords": [
+        "agents",
+        "ui",
+        "ai",
+        "praisonai"
+    ],
+    "author": "MervinPraison",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MervinPraison/agentsui"
+    },
+    "devDependencies": {
+        "typescript": "^5.0.0"
+    }
+}
